@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<head>
+    <title>Articles</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+<style>
+    * {
+        margin: 0;
+        padding: 1;
+    }
+    
+    .container {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    
+    body {
+        background-color: #2b2c31;
+    }
+    
+    .head-section {
+        height: 680px;
+        width: 100%;
+    }
+    
+    .support {
+        height: 400px;
+        transition: 2s;
+        width: 270px;
+        border-radius: 10px;
+        background-color: white;
+        float: left;
+        margin: 15px 10px;
+    }
+    
+    .support h3 {
+        margin: 10px 10px;
+    }
+    
+    .support p {
+        margin: 15px 10px;
+    }
+    
+    .support img {
+        height: 250px;
+        width: 270px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .hero {
+        height: 400px;
+     
+        width: 560px;
+        border-radius: 10px;
+        float: left;
+        margin: 15px;
+        background-color: #3b55e6;
+    }
+    
+    .ss1 {
+        height: 120px;
+        width: 320px;
+        margin: 126px -177px;
+        float: left;
+    }
+    .hero:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    .support:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    .articles:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    .denis:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    .user:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+	img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+    
+    .btn {
+        color: white;
+        width: 200px;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-radius: 25px;
+    }
+    
+    .ss1 a {
+        text-decoration: none;
+        margin: 10px 30px;
+    }
+    
+    .hero img {
+        height: 370px;
+        width: 210px;
+        float: right;
+        margin: 30px 15px;
+    }
+    
+    .hero p {
+        float: left;
+        color: white;
+        margin: 50px 30px;
+    }
+    
+    .hero h1 {
+        float: left;
+        color: white;
+        margin: 71px -150px;
+    }
+    
+    .articles {
+        height: 655px;
+        transition: 2s;
+        width: 270px;
+        border-radius: 10px;
+        float: right;
+        margin: 15px 10px 0 -270px;
+        background-color: white;
+    }
+    
+    .articles1 {
+        height: 30px;
+        width: 270px;
+        border-radius: 10px;
+        float: left;
+    }
+    
+    .articles1 p {
+        margin: 10px 10px;
+    }
+    
+    .hr1 {
+        opacity: 0.3;
+    }
+    
+    .hr10 {
+        display: none;
+    }
+    
+    .articles2 {
+        padding: 0;
+        width: 270px;
+        border-radius: 10px;
+        float: left;
+    }
+    
+    .articles2 p {
+        margin: 10px;
+        opacity: 0.5;
+    }
+    
+    .articles2 h3 {
+        margin: 23px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .articles3 {
+        padding: 0;
+        width: 270px;
+        border-radius: 10px;
+        float: left;
+    }
+    
+    .articles3 p {
+        margin: 10px;
+        opacity: 0.5;
+    }
+    
+    .articles3 h3 {
+        margin: 23px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .articles4 {
+        height: 150px;
+        width: 250px;
+        border-radius: 10px;
+        float: left;
+        margin: 10px;
+    }
+    
+    .articles4 img {
+        border-radius: 10px;
+        height: 150px;
+        width: 250px;
+    }
+    
+    .articles5 {
+        padding: 0;
+        width: 270px;
+        border-radius: 10px;
+        float: left;
+        margin: -10px 0;
+    }
+    
+    .articles5 p {
+        margin: 10px;
+        opacity: 0.5;
+    }
+    
+    .articles5 h3 {
+        margin: 23px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .hr3 {
+        opacity: 0.3;
+    }
+    
+    .articles6 {
+        padding: 0;
+        width: 270px;
+        border-radius: 10px;
+        float: left;
+    }
+    
+    .articles6 p {
+        margin: 10px;
+        opacity: 0.5;
+    }
+    
+    .articles6 h3 {
+        margin: 23px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .hr3 {
+        opacity: 0.3;
+    }
+    
+    .l1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        float: left;
+        text-align: center;
+        margin: 9px 99px;
+    }
+    
+    .denis {
+        transition: 2s;
+        height: 230px;
+        width: 270px;
+        border-radius: 10px;
+        background-color: #fe5339;
+        float: left;
+        margin: 10px;
+    }
+    
+    .denis1 {
+        height: 50px;
+        width: 270px;
+        float: left;
+    }
+    
+    .denis1 p {
+        text-align: center;
+        margin: 15px 35px;
+        color: white;
+    }
+    
+    .denis-img {
+        height: 15px;
+        width: 15px;
+        float: left;
+        margin: 0 50px;
+    }
+    
+    .denis1 img {
+        float: right;
+        margin: 15px 20px;
+    }
+    
+    .denis2 {
+        height: 150px;
+        width: 270px;
+        float: left;
+    }
+    
+    .denis2 p {
+        color: white;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 18px;
+        margin: 13px 31px;
+    }
+    
+    .denis3 {
+        height: 50px;
+        width: 270px;
+        float: left;
+    }
+    
+    .denis3 img {
+        margin: -13px 25px;
+    }
+    
+    .denis3 p {
+        color: white;
+        margin: -17px 67px;
+    }
+    
+    .user {
+        height: 230px;
+        width: 560px;
+        border-radius: 10px;
+        float: left;
+        margin: 10px 15px;
+    }
+	
+    
+    .user1 {
+        height: 230px;
+        width: 385px;
+        border-radius: 10px 0 0 10px;
+        background-color: white;
+        float: left;
+    }
+    
+    .user1 p {
+        color: gray;
+        margin: 15px 23px;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 15px;
+    }
+	
+    
+    .user1 h2 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 15px;
+        margin: 0px 25px;
+    }
+    
+    .user1 img {
+        margin: 15px 0;
+    }
+    
+    .user2 {
+        height: 230px;
+        width: 175px;
+        border-radius: 0 10px 10px 0;
+        float: right;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .user2 img {
+        height: 230px;
+        width: 175px;
+    }
+    
+    .web-section {
+        height: 450px;
+        width: 100%;
+        margin: 10px 0;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .webimg-section {
+        height: 450px;
+        width: 49%;
+        float: left;
+        border-radius: 10px;
+    }
+    .m2:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    .m3:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    .m4:hover{
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    .webimg-section img {
+        border-radius: 10px 0 0 10px;
+        height: 450px;
+        width: 100%;
+    }
+    
+    .webtext-section {
+        height: 450px;
+        width: 49.5%;
+        float: left;
+        border-radius: 0 10px 10px 0;
+        margin: 0 4px;
+        background-color: white;
+    }
+    
+    .webtext-section a {
+        padding: 8px;
+        width: 100px;
+        border-radius: 50px;
+        text-decoration: none;
+        background-color: #a1a7bd;
+        float: left;
+        color: white;
+        text-align: center;
+        margin: 40px 30px;
+    }
+    
+    .webtext1 {
+        padding: 10px;
+        width: 70%;
+        float: left;
+        margin: 30px 20px;
+    }
+    
+    .webtext1 h1 {
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+    
+    .webtext2 {
+        padding: 10px;
+        width: 80%;
+        float: left;
+        margin: -30px 20px;
+    }
+    
+    .webtext2 p {
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+    
+    .star-section {
+        padding: 0;
+        width: 70%;
+        margin: 20px 0;
+    }
+    
+    .star-section p {
+        float: left;
+    }
+    
+    .clr {
+        color: #4edea9;
+    }
+    
+    .cr {
+        margin-left: 30px;
+    }
+    
+    .marketing-section {
+        height: 670px;
+        width: 100%;
+        float: left;
+        margin: 5px 0;
+    }
+    
+    .m1 {
+        height: 655px;
+        width: 547px;
+        background-color: white;
+        float: left;
+        margin: 10px 10px;
+        border-radius: 10px;
+    }
+    
+    .m1-img {
+        height: 400px;
+        width: 547px;
+        border-radius: 10px;
+    }
+    
+    .m1-img img {
+        height: 400px;
+        width: 547px;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .m1-text {
+        height: 150px;
+        width: 547px;
+    }
+    
+    .m1-text p {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 5px 40px 17px 25px;
+    }
+    
+    .m1-text h1 {
+        padding: 20px;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+    
+    .m1-fs {
+        height: 45px;
+        width: 547px;
+        float: left;
+        bottom: 0;
+    }
+    
+    .m1-h {
+        float: left;
+        height: 40px;
+        width: 25px;
+        margin: 0 18px;
+    }
+    
+    .m10-h {
+        float: left;
+        width: 25px;
+        margin: 12px 20px;
+        opacity: 0.5;
+    }
+    
+    .m1-h i {
+        float: left;
+        opacity: 0.5;
+        margin: 14px 57px;
+    }
+    
+    .m91-h i {
+        float: left;
+        color: red;
+        margin: 14px 36px;
+    }
+    
+    .m1-h1 {
+        height: 40px;
+        width: 100px;
+        opacity: 0.5;
+        float: left;
+    }
+    
+    .m10-h1 {
+        margin: 12px 0;
+        opacity: 0.5;
+        float: left;
+    }
+    
+    .m10-h1 p {
+        margin: -1px -8px;
+    }
+    
+    .m1-h1 p {
+        margin: 12px 48px;
+    }
+    
+    .m91-h1 p {
+        margin: 1px -7px;
+    }
+    
+    .m1-h11 {
+        height: 40px;
+        width: 25px;
+        float: left;
+    }
+    
+    .m10-h11 {
+        margin: 12px 25px;
+        opacity: 0.5;
+        float: left;
+    }
+    
+    .m1-h11 i {
+        opacity: 0.5;
+        margin: 13px 18px
+    }
+    
+    .m1-h111 {
+        float: left;
+    }
+    
+    .m10-h111 {
+        margin: 12px 0;
+        opacity: 0.5;
+        float: left;
+    }
+    
+    .m1-h111 p {
+        opacity: 0.5;
+        margin: 12px 20px;
+    }
+    
+    .m1-h1111 i {
+        float: left;
+        opacity: 0.5;
+        margin: 13px 18px
+    }
+    
+    .m1-fs1 {
+        float: left;
+    }
+    
+    .m1-fs img {
+        float: left;
+        margin: 5px 30px;
+    }
+    
+    .m2 {
+        height: 322px;
+        width: 293px;
+        background-color: black;
+        border-radius: 10px;
+        float: left;
+        margin: 10px 10px;
+    }
+    
+    .m2 img {
+        height: 322px;
+        width: 293px;
+        border-radius: 10px;
+    }
+    
+    .m2 a {
+        position: absolute;
+        border: 1px solid black;
+        padding: 12px;
+        color: white;
+        border-radius: 30px;
+        margin: 30px 30px;
+        text-decoration: none;
+    }
+    
+    .m2 p {
+        color: blue;
+        font-size: 25px;
+        position: absolute;
+        margin: 220px 15px;
+        background-color: rgb(117, 117, 156);
+        opacity: 0.9;
+    }
+    
+    .m3 {
+        height: 655px;
+        width: 270px;
+        background-color: white;
+        border-radius: 10px;
+        float: right;
+        margin: 10px 10px;
+    }
+    
+    .m3 p {
+        padding: 10px;
+        opacity: 0.5;
+    }
+    
+    .m3-s1 {
+        height: 115px;
+        width: 270px;
+    }
+    
+    .m3-s1img {
+        height: 100px;
+        width: 90px;
+        float: left;
+    }
+    
+    .m3-s1img img {
+        margin: 10px 20px;
+    }
+    
+    .m3-s1text {
+        height: 60px;
+        width: 180px;
+        float: left;
+    }
+    
+    .m3-s1text h3 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    .m3-s1fa {
+        height: 40px;
+        width: 180px;
+        float: left;
+    }
+    
+    .heart {
+        float: left;
+        margin: 12px 10px;
+        opacity: 0.5;
+    }
+    
+    .heart-count {
+        margin: 2px 0;
+        float: left;
+    }
+    
+    .comment {
+        float: left;
+        margin: 12px 10px;
+        opacity: 0.5;
+    }
+    
+    .comment-count {
+        margin: 2px 0;
+        float: left;
+    }
+    
+    .m3 p {
+        text-align: center;
+    }
+    
+    .m4 {
+        height: 315px;
+        width: 290px;
+        background-color: white;
+        border-radius: 10px;
+        float: left;
+        margin: 10px 10px;
+    }
+    
+    .m4 img {
+        border-radius: 10px 10px 0 0;
+        width: 290px;
+        height: 200px;
+    }
+    
+    .m4 h3 {
+        padding: 10px;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+    
+    .sp1 {
+        margin-right: 60px;
+    }
+    
+    .popular-section {
+        height: 270px;
+        width: 100%;
+        border: 1px solid black;
+        background-color: white;
+        float: left;
+        border-radius: 10px;
+    }
+    
+    .popular-p1 {
+        width: 100px;
+        height: 60px;
+    }
+    
+    .popular-p2 {
+        float: left;
+        padding: 20px;
+        width: 200px;
+    }
+    
+    .popular-head {
+        float: left;
+        height: 60px;
+        width: 100%;
+    }
+    
+    .popular-p3 {
+        float: right;
+        height: 60px;
+        width: 150px;
+    }
+    
+    .popular-p31 {
+        float: left;
+        height: 35px;
+        width: 60px;
+        border: 1px solid black;
+        border-radius: 40px 0 0 40px;
+        margin: 11px 0;
+        opacity: 0.4;
+    }
+    
+    .popular-p31 p {
+        margin: 10px 20px;
+    }
+    
+    .popular-p32 {
+        float: left;
+        height: 35px;
+        width: 60px;
+        border: 1px solid black;
+        border-radius: 0 40px 40px 0;
+        margin: 11px 0;
+        opacity: 0.4;
+    }
+    
+    .popular-p32 p {
+        margin: 10px 25px;
+    }
+    
+    .travel {
+        float: left;
+        height: 196px;
+        width: 33.1%;
+    }
+    
+    .travel p {
+        text-align: center;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 18px;
+    }
+    
+    .a1 {
+        background-color: #f7d152;
+    }
+    
+    .l11 {
+        margin: 10px 0;
+        opacity: 0.5;
+    }
+    
+    .t1 {
+        padding: 8px;
+        color: white;
+        float: left;
+        width: 60px;
+        margin: 20px 40%;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #4edce6;
+    }
+    
+    .t11 {
+        padding: 8px;
+        color: white;
+        float: left;
+        width: 60px;
+        margin: 20px 40%;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #ff513c;
+    }
+    
+    .t111 {
+        padding: 8px;
+        color: white;
+        float: left;
+        width: 60px;
+        margin: 20px 40%;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #f7d152;
+    }
+    
+    .last-section {
+        height: 220px;
+        width: 100%;
+        background-color: white;
+        float: left;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    
+    .last-l1 {
+        height: 150px;
+        width: 33%;
+        float: left;
+    }
+    
+    .img-section1 {
+        height: 6px;
+        width: 80px;
+        float: left;
+        margin: 36px 47px;
+    }
+    
+    .img-section1 img {
+        height: 65px;
+        width: 80px;
+        border-radius: 10px;
+    }
+    
+    .head-section1 {
+        height: 30px;
+        width: 160px;
+        float: left;
+        margin: 10px;
+        margin: 20px 0;
+    }
+    
+    .head-section1 p {
+        padding: 5px;
+        opacity: 0.5;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+    
+    .text-section1 {
+        height: 50px;
+        width: 200px;
+        float: left;
+        margin: 10px;
+        margin: -10px 5px;
+    }
+    
+    .text-section1 h3 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 15px;
+    }
+    
+    .t1p {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 15px;
+    }
+    
+    .wake-section {
+        height: 140px;
+        width: 100%;
+        float: left;
+        margin: 13px 0;
+        border-radius: 10px;
+        background-color: #000000;
+    }
+    
+    .wake-section1 {
+        height: 140px;
+        width: 33%;
+        float: left;
+    }
+    
+    .wake-section1 h3 {
+        margin: 30px 60px;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+    
+    .wake-section1 a {
+        margin: 30px 145px;
+        text-align: center;
+        color: #c5b047;
+    }
+    
+    .post-section {
+        height: 300px;
+        width: 48.2%;
+        float: left;
+        background-color: white;
+        border-radius: 10px;
+        margin: 0 10px;
+    }
+    
+    .post-section a {
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        float: right;
+        margin: -7px 63px;
+    }
+    
+    .post2-p1 {
+        height: 50px;
+        width: 100%;
+    }
+    
+    .post2-p2 {
+        height: 50px;
+        width: 33%;
+        float: left;
+    }
+    
+    .post2-p2 p {
+        padding: 16px;
+        opacity: 0.5;
+    }
+    
+    .post2-p3 {
+        height: 50px;
+        width: 33%;
+        background-color: #f1f2f7;
+        float: left;
+        border-right: 1px solid black;
+    }
+    
+    .post2-p3 p {
+        padding: 16px;
+        opacity: 0.5;
+    }
+    
+    .post2-p4 {
+        height: 50px;
+        width: 33.5%;
+        background-color: #f1f2f7;
+        float: left;
+        border-radius: 0 10px 0 0;
+    }
+    
+    .post2-p4 p {
+        opacity: 0.5;
+        padding: 16px;
+    }
+    
+    .post2-img {
+        height: 190px;
+        width: 134px;
+        background-color: red;
+        float: left;
+        margin: 27px 25px;
+    }
+    
+    .post2-img img {
+        height: 190px;
+        width: 134px;
+        border-radius: 10px;
+    }
+    
+    .post2-text {
+        height: 96px;
+        width: 343px;
+        float: left;
+        margin: -14px 2px;
+    }
+    
+    .post2-text p {
+        font-family: "Segoe UI", Arial, sans-serif;
+        padding: 10px;
+    }
+    
+    .post2-head {
+        font-family: "Segoe UI", Arial, sans-serif;
+        height: 76px;
+        width: 344px;
+        margin: 27px 0px;
+        float: left;
+    }
+    
+    .post2-head h3 {
+        padding: 10px;
+    }
+    
+    .post-p1 {
+        height: 300px;
+        width: 160px;
+        float: left;
+    }
+    
+    .post-p2 {
+        height: 58px;
+        width: 403px;
+        float: left;
+    }
+    
+    .post-p2 h3 {
+        float: left;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 17px 0;
+    }
+    
+    .post-p2 p {
+        float: left;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 20px 15px;
+        opacity: 0.5;
+    }
+    
+    .post-p2 a {
+        float: left;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 20px 10px;
+    }
+    
+    .post-img {
+        margin: 10px 20px;
+        float: left;
+    }
+    
+    .post-p3 {
+        height: 240px;
+        width: 403px;
+        float: left;
+    }
+    
+    .post3-p1 {
+        height: 60px;
+        width: 100%;
+        float: left;
+    }
+    
+    .post3-p1 h3 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 15px 23px;
+    }
+    
+    .post3-p2 {
+        height: 140px;
+        width: 100%;
+        float: left;
+    }
+    
+    .post3-p2 p {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 35px 23px;
+        opacity: 0.9;
+    }
+    
+    .post3-p3 img {
+        margin: 10px 0;
+    }
+    
+    .post-l1 {
+        height: 58px;
+        width: 160px;
+        background-color: #f1f2f7;
+    }
+    
+    .post-l1 P {
+        float: left;
+        margin: 20px 10px;
+    }
+    
+    .post-l11 {
+        height: 58px;
+        width: 160px;
+    }
+    
+    .post-l11 P {
+        padding: 15px;
+    }
+    
+    @media screen and (min-width: 960px) and (max-width: 1125px) {
+        .container {
+            width: 100%;
+        }
+        .articles {}
+        .hero {
+            width: 332px;
+        }
+        .hero img {
+            display: none;
+        }
+        .user1 {
+            width: 334px;
+            border-radius: 10px;
+        }
+        .user2 img {
+            display: none;
+        }
+        .web-section {
+            width: 99%;
+        }
+        .webimg-section {
+            width: 50%;
+        }
+        .webimg-section img {
+            width: 100%;
+        }
+        .webtext-section {
+            width: 49%;
+        }
+        .webtext1 h1 {
+            font-size: 23px;
+        }
+        .webtext2 p {
+            font-size: 15px;
+        }
+        .m1 {
+            width: 440px;
+        }
+        .m1-img img {
+            width: 440px;
+        }
+        .m1-text h1 {
+            font-size: 23px;
+        }
+        .m1-text p {
+            font-size: 15px;
+            width: 74%;
+            margin: 0 20px;
+        }
+        .br {
+            display: none;
+        }
+        .m1-fs1 {
+            margin: 10px 0;
+        }
+        .m1-h1 p {
+            margin: 10px 50px;
+        }
+        .m1-h111 p {
+            margin: 11px 18px;
+        }
+        .hr10 {
+            width: 80%;
+        }
+        .m1-text {}
+        .m2 {
+            width: 224px;
+        }
+        .m2 img {
+            width: 224px;
+        }
+        .m2 p {
+            font-size: 17px;
+            margin: 220px 15px;
+        }
+        .m3 {
+            width: 220px;
+           
+        }
+        .m3-s1img {
+            width: 60px;
+        }
+        .m3-s1 {}
+        .m3-s1text h3 {
+            width: 100%;
+            font-size: 13px;
+        }
+        .m3-s1text {
+            width: 109px;
+        }
+        .m4 {
+            width: 223px;
+        }
+        .m4 img {
+            width: 223px;
+        }
+        .m4 h3 {
+            font-size: 12px;
+        }
+        .post-section {
+            width: 47.2%;
+        }
+        .post2-head h3 {
+            font-size: 14px;
+        }
+        .post2-head {
+            width: 257px;
+        }
+        .post2-text {
+            width: 257px;
+        }
+        .post-section a {
+            margin: 33px 63px;
+        }
+        .post2-text {
+            margin: -35px 2px;
+        }
+        .post-p2 {
+            width: 264px;
+        }
+        .post-p2 h3 {
+            font-size: 12px;
+            margin: 23px 0;
+        }
+        .post-p2 a {
+            display: none;
+        }
+        .post-p3 {
+            width: 272px;
+        }
+        .post3-p1 h3 {
+            font-size: 15px;
+        }
+        .post3-p2 p {
+            margin: 17px 23px;
+        }
+        .post3-p3 img {
+            display: none;
+        }
+        .wake-section {
+            width: 98%;
+        }
+        .head-section1 p {
+            display: none;
+        }
+        .img-section1 {
+            margin: 12px 112px;
+        }
+        .text-section1 h3 {}
+        .text-section1 {
+            margin: -10px 57px;
+        }
+        .last-section {
+            width: 98%;
+        }
+        .popular-section {
+            width: 98%;
+        }
+		
+    }
+    
+    @media screen and (max-width: 320px) {
+        .container {
+            width: 320px;
+			}
+        
+        .hero {
+            width: 270px;
+            margin: 0 10px;
+        }
+        .hero img {
+            display: none;
+        }
+        .hero p {
+            margin: 50px 24px;
+        }
+        .user1 {
+            width: 334px;
+            border-radius: 10px;
+        }
+        .user2 img {
+            display: none;
+        }
+        .web-section {
+            width: 92%;
+            float: left;
+        }
+        .desis {
+            float: left;
+        }
+        .articles {
+            margin: 13px 40px;
+        }
+        .webimg-section {
+            width: 50%;
+        }
+        .user {
+            width: 270px;
+            margin: 0 10px;
+        }
+        .user1 {
+            width: 270px;
+        }
+        .user1 p {
+            font-size: 13px;
+        }
+        .webimg-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .webimg-section {
+            display: none;
+        }
+        .webtext-section {
+            float: left;
+            width: 100%;
+        }
+        .webtext1 h1 {
+            font-size: 15px;
+        }
+        .star-section p {
+            font-size: 12px;
+             float: left;
+            }
+            .star-section {
+                width: 95%;
+            }
+            .webtext2 {
+                margin: -43px 19px;
+
+            }
+        .webtext2 p {
+            font-size: 15px;
+        }
+        .m1 {
+            width: 268px;
+            float: left;
+        }
+        .marketing-section {
+            float: left;
+        }
+        .m1-img {
+            float: left;
+        }
+        .m1-img img {
+            width: 268px;
+            height: 371px;
+        }
+        .travel {
+
+        }
+        .m1-text h1 {
+               font-size: 15px;
+        }
+        .m1-text p {
+            font-size: 14px;
+            width: 39%;
+            margin: 0 20px;
+            margin: 5px 40px 17px 25px;
+
+        }
+        .br {
+            display: none;
+        }
+        .m1-fs1 {
+            margin: 14px -28px;
+        }
+        .m1-h {
+            margin: 9px -49px;
+        }
+        .m1-fs{
+
+            width: 100%;
+        }
+        .m1-h1 p {
+            margin: 19px 38px;
+        }
+        .m1-h11 {
+            margin: 7px -41px;
+        }
+        .m1-h111 p {
+            margin: 19px 6px;
+        }
+        .hr10 {
+            width: 80%;
+        }
+        .m1-fs img {
+            margin: 12px 12px;
+        }
+
+        .m1-text {}
+        .m2 {
+            width: 224px;
+        }
+        .m2 img {
+            width: 224px;
+        }
+        .m2 p {
+            font-size: 17px;
+            margin: 220px 15px;
+        }
+        .m3 {
+            width: 84%;
+			float:left;
+          
+			
+        }
+        .m3-s1img {
+            width: 60px;
+        }
+		.popular-p3 {
+			width: 108px;
+		}
+		.m2 {
+			width: 84%;
+			float:left;
+		}
+		.m2 img {
+			    width: 100%;
+		}
+        .m3-s1 {
+		
+		}
+        .m3-s1text h3 {
+            width: 100%;
+            font-size: 13px;
+        }
+        .m3-s1text {
+            width: 109px;
+        }
+        .m4 {
+            width: 84%;
+        }
+        .m4 img {
+            width: 100%;
+        }
+        .m4 h3 {
+            font-size: 12px;
+        }
+        .post-section {
+               width: 84%; 
+        }
+        .post2-head h3 {
+            font-size: 14px;
+        }
+        .post2-head {
+            width: 257px;
+        }
+        .post2-text {
+            width: 257px;
+        }
+        .post-section a {
+            margin: 33px 63px;
+        }
+        .post2-text {
+            margin: -35px 2px;
+        }
+        .post-p2 {
+            width: 264px;
+        }
+        .post-p2 h3 {
+            font-size: 12px;
+            margin: 23px 0;
+        }
+        .post-p2 a {
+            display: none;
+        }
+        .post-p3 {
+            width: 272px;
+        }
+        .post3-p1 h3 {
+            font-size: 15px;
+        }
+        .post3-p2 p {
+            margin: 17px 23px;
+        }
+        .post3-p3 img {
+            display: none;
+        }
+        .wake-section {
+            width: 98%;
+        }
+        .head-section1 p {
+            display: none;
+        }
+        .img-section1 {
+            margin: 12px 112px;
+        }
+        .text-section1 h3 {
+		}
+        .text-section1 {
+            margin: -10px 57px;
+        }
+        .last-section {
+               width: 92%;
+               float: left;
+			   height:auto;
+        }
+        .popular-section {
+            width: 92%;
+            float: left;
+            height: auto;
+        }
+        .travel {
+            height: auto;
+			    width: 100%;
+        }
+		.popular-p2 p{
+			font-size:12px;
+		
+		}
+		.popular-p31 {
+			height: 27px;
+			width: 44px;
+		}
+		.popular-p32 {
+			height: 27px;
+			width: 44px;
+		}
+		.last-l1 {
+		width: 100%;
+		}
+		.wake-section {
+			 width: 100%;
+			 height:auto;
+		}
+		.wake-section1 {
+			 width: 100%;
+		}
+		.wake-section1 a {
+			    margin: 10px 107px;
+		}
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head-section">
+            <div class="support">
+                <img src="images/3.png" alt="Not Found">
+                <h3>Supporting our veterans is scared resposbility</h3>
+                <p>Supporting our veterans is our soleman duty as Americans</p>
+                <hr class="hr1">
+
+            </div>
+            <div class="hero">
+                <p>X-MEN HEROES</p>
+                <h1 class="animated bounceInRight">Mystique Raven<br> Darkholeme</h1>
+                <div class="ss1">
+                    <p>Mystique is a member of a subspecies
+                        <br> of humanity known as mutants, who
+                        <br>are born with superhuman abilities</p>
+                    <a href="#" class="btn">VIEW ALL HEROES</a>
+                </div>
+                <img src="images/1.png" alt="Not Found">
+
+            </div>
+            <div class="articles">
+                <div class="articles1">
+                    <p>Articles</p>
+                    <hr class="hr1">
+                </div>
+
+                <div class="articles2">
+                    <h3>Multitaking killing your brain</h3>
+                    <p>24 minut ago</p>
+                    <hr class="hr1">
+                </div>
+
+                <div class="articles3">
+                    <h3>8 ways Billonaires & Elite <br>Athletes PerformAt the highest  <br> Level</h3>
+                    <p>43 minut ago</p>
+                    <hr class="hr1">
+                </div>
+
+                <div class="articles4">
+                    <img src="images/2.png" class="vert-move" alt="Not found">
+                </div>
+
+                <div class="articles5">
+                    <h3>How We Build a Tech Startup <br> without Tech</h3>
+                    <p>43 minut ago</p>
+                    <hr class="hr3">
+                </div>
+
+                <div class="articles6">
+                    <h3>Your Life is Tetris. Stop Playing it <br>Like Chess</h3>
+                    <p>24 minut ago</p>
+                    <hr class="hr3">
+                </div>
+
+                <p class="l1">LOAD MORE</p>
+            </div>
+            <div class="denis">
+                <div class="denis1">
+
+                    <div class="denis-img ">
+                        <img src="images/9.png" alt="Not found">
+                    </div>
+                    <img src="images/7.png" alt="Not found">
+                    <p>January 31th 2016</p>
+
+                </div>
+                <div class="denis2">
+                    <p>These 39 Sites Have
+                        <br> Amazing Stock
+                        <br> Photos You Can Use
+                        <br> For Free</p>
+                </div>
+                <div class="denis3">
+                    <img src="images/8.png" alt="Not Found">
+                    <p>Denis Shepovalov</p>
+
+                </div>
+
+            </div>
+            <div class="user">
+                <div class="user1">
+                    <p>USER EXPERIENCE DESIGN</p>
+                    <h2>I'm not smart, I just sat there <br> for longer then you </h2>
+                    <p class="u1">If anyone's struggling coading, or just
+                        <br> learning something difficult, this
+                        <br> post might give you some sort of... </p>
+                    <img src="images/11.png" alt="not found">
+
+                </div>
+                <div class="user2">
+                    <img src="images/4.png" alt="not found">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="web-section">
+            <div class="webimg-section">
+                <img src="images/5.png" alt="Not found">
+
+            </div>
+            <div class="webtext-section">
+                <div class="webtext1">
+                    <h1>The 37 Best Websites To <br> Learn Something New </h1>
+                    <div class="star-section">
+                        <p>LIFESTYLE</p>
+                        <i class="fa fa-star clr cr"></i>
+                        <i class="fa fa-star clr"></i>
+                        <i class="fa fa-star clr"></i>
+                        <i class="fa fa-star clr"></i>
+                        <i class="fa fa-star clr"></i>
+                    </div>
+                </div>
+                <div class="webtext2">
+                    <p>Forget overpriced school, long days in a crowded classroom,
+                        <br> and partifully poor results. These Websites and Apps cover myrides
+                        <br> of science, art, and technology topics.
+                        <br>
+                        <br> They will you partically anything, from making hummus
+                        <br> to building Apps in nodes, most them for free. </p>
+
+                </div>
+                <a href="#">READ NOW</a>
+            </div>
+        </div>
+
+        <div class="marketing-section">
+            <div class="m1">
+                <div class="m1-img">
+                    <img src="images/6.png" alt="Not found">
+                </div>
+
+                <div class="m1-text">
+                    <h1>Why Snapshot Will Be Great <br> for B2B Companies</h1>
+                    <p>I don't understad how people don't see the obvious, common
+                        <br>trend of what happens to popular social networks like snapshot.
+                        <br> They don't see that these platforms start off young, statr...</p>
+                    <hr class="hr1">
+                    <hr class="hr10">
+
+                    <div class="m1-fs">
+                        <img src="images/19.png" alt="Not found">
+                        <div class="m1-fs1">
+
+                            <p>SYMBIOSYS</p>
+
+                        </div>
+                        <div class="m1-h">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="m1-h1">
+                            <p>523</p>
+                        </div>
+
+                        <div class="m1-h11">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="m1-h111">
+                            <p>21</p>
+                        </div>
+                        <div class="m1-h1111">
+                            <i class="fa fa-clock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m2">
+                <a href="#"> Allah is One</a>
+                <p>Hazrat Muhammad SAW
+                    <br> is the last Prophit of Allah </p>
+                <img src="images/32.jpg" alt="Not found">
+            </div>
+			<div class="hanzla">
+			
+            <div class="m3">
+                <p>TOP STORIES</p>
+                <hr class="hr1">
+
+                <div class="m3-s1">
+                    <div class="m3-s1img">
+                        <img src="images/14.png" alt="Not found">
+
+                    </div>
+                    <div class="m3-s1text">
+                        <h3>Multitasking is killing your brain </h3>
+
+                    </div>
+                    <div class="m3-s1fa">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="heart-count">
+                            <p>523</p>
+                        </div>
+
+                        <div class="comment">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="comment-count">
+                            <p>21</p>
+                        </div>
+
+                    </div>
+                </div>
+                <hr class="hr1">
+
+                <div class="m3-s1">
+                    <div class="m3-s1img">
+                        <img src="images/15.png" alt="Not found">
+
+                    </div>
+                    <div class="m3-s1text">
+                        <h3>Taking the Wrong  <br> lesson from uber </h3>
+
+                    </div>
+                    <div class="m3-s1fa">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="heart-count">
+                            <p>523</p>
+                        </div>
+
+                        <div class="comment">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="comment-count">
+                            <p>21</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr class="hr1">
+
+                <div class="m3-s1">
+                    <div class="m3-s1img">
+                        <img src="images/16.png" alt="Not found">
+
+                    </div>
+                    <div class="m3-s1text">
+                        <h3>The 39 Sites Have <br>Amazing Stock  </h3>
+
+                    </div>
+                    <div class="m3-s1fa">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="heart-count">
+                            <p>523</p>
+                        </div>
+
+                        <div class="comment">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="comment-count">
+                            <p>21</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr class="hr1">
+
+                <div class="m3-s1">
+                    <div class="m3-s1img">
+                        <img src="images/17.png" alt="Not found">
+
+                    </div>
+                    <div class="m3-s1text">
+                        <h3>The Ultimate Guide to  <br>Learningr  </h3>
+
+                    </div>
+                    <div class="m3-s1fa">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="heart-count">
+                            <p>523</p>
+                        </div>
+
+                        <div class="comment">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="comment-count">
+                            <p>21</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <hr class="hr1">
+
+                <div class="m3-s1">
+                    <div class="m3-s1img">
+                        <img src="images/18.png" alt="Not found">
+
+                    </div>
+                    <div class="m3-s1text">
+                        <h3>Why I Love Night <br> Photography?</h3>
+
+                    </div>
+                    <div class="m3-s1fa">
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="heart-count">
+                            <p>523</p>
+                        </div>
+
+                        <div class="comment">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="comment-count">
+                            <p>21</p>
+                        </div>
+
+                    </div>
+                </div>
+                <hr class="hr1">
+                <p class="pp1">SEE ALL STORIES</p>
+            </div>
+            <div class="m4">
+                <img src="images/12.png" alt="Not found">
+                <h3>Worse than Sandy? Slow <br>your roll.</h3>
+                <hr class="hr1">
+                <div class="m10-h">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="m10-h1">
+                    <p>332</p>
+                </div>
+
+                <div class="m10-h11">
+                    <i class="fa fa-comment"></i>
+                </div>
+                <div class="m10-h111 ">
+                    <p>51</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular-section">
+            <div class="popular-head">
+                <div class="popular-p3">
+                    <div class="popular-p31">
+                        <p>
+                            <</p>
+                    </div>
+                    <div class="popular-p32">
+                        <p>></p>
+                    </div>
+
+                </div>
+                <div class="popular-p1">
+
+                    <div class="popular-p2">
+                        <p>POPULAR STORIES</p>
+
+                    </div>
+                </div>
+            </div>
+            <hr class="hr1">
+
+            <div class="travel">
+                <div class="t1">
+                    <p>TRAVEL</p>
+                </div>
+                <p>The Ups and Down of
+                    <br>Friendship with the Beutiful
+                    <br> Bowing Deer of Nara, Japan </p>
+                <p class="l11">ANTHDNY WAYNE</p>
+            </div>
+            <div class="travel">
+                <div class="t11">
+                    <p>LIFE</p>
+                </div>
+                <p>The Ups and Down of
+                    <br>Friendship with the Beutiful
+                    <br> Bowing Deer of Nara, Japan </p>
+                <p class="l11">London Thorn Dike</p>
+            </div>
+            <div class="travel">
+                <div class="t111 ">
+                    <p>DESIGN</p>
+
+                </div>
+                <p>The Ups and Down of
+                    <br>Friendship with the Beutiful
+                    <br> Bowing Deer of Nara, Japan </p>
+                <p class="l11">DYLAN</p>
+
+            </div>
+        </div>
+
+        <div class="last-section">
+            <div class="popular-head">
+                <div class="popular-p3">
+                    <div class="popular-p31">
+                        <p>
+                            <</p>
+                    </div>
+                    <div class="popular-p32">
+                        <p>></p>
+                    </div>
+
+                </div>
+                <div class="popular-p1">
+
+                    <div class="popular-p2">
+                        <p>LAST ARTICLES</p>
+
+                    </div>
+                </div>
+            </div>
+            <hr class="hr1">
+
+            <div class="last-l1">
+                <div class="img-section1">
+                    <img src="images/23.png" alt="Not found">
+
+                </div>
+                <div class="head-section1">
+                    <p>PRODUCTS DESIGN</p>
+
+                </div>
+                <div class="text-section1">
+                    <h3>Resource Toolkit for a <br> product Designer</h3>
+
+                </div>
+
+            </div>
+            <div class="last-l1">
+                <div class="img-section1">
+                    <img src="images/21.png" alt="Not found">
+                </div>
+                <div class="head-section1">
+                    <p>USER EXPERIENCE</p>
+
+                </div>
+                <div class="text-section1">
+                    <h3>5 Tips to Speed Up Your <br>Workflow in sketch </h3>
+
+                </div>
+
+            </div>
+            <div class="last-l1">
+                <div class="img-section1">
+                    <img src="images/20.png" alt="Not found">
+                </div>
+                <div class="head-section1">
+                    <p>USER EXPERIENCE</p>
+
+                </div>
+                <div class="text-section1">
+                    <h3>8 Ways Billionares & Elite <br> Athletes Perform</h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="wake-section">
+            <div class="wake-section1">
+                <h3>How to wake up 4AM and Build <br>Your Startup </h3>
+                <a href="#">UserExperience</a>
+
+            </div>
+            <div class="wake-section1">
+
+                <h3>What's it Like Going from Startup <br> CEO to Regular Dude?</h3>
+                <a href="#">Management</a>
+            </div>
+            <div class="wake-section1">
+                <h3>The Strange Business Strategy This <br> Company USedto Rase $86 Million</h3>
+                <a href="#">Startups</a>
+            </div>
+        </div>
+
+        <div class="post-section">
+            <div class="post-p1">
+                <div class="post-l11">
+                    <p>LATEST POST</p>
+
+                </div>
+                <hr class="hr1">
+                <div class="post-l1">
+                    <p>FEATURED</p>
+
+                </div>
+                <hr class="hr1">
+                <div class="post-l1">
+                    <P>POPULAR</P>
+
+                </div>
+                <hr class="hr1">
+                <div class="post-l1">
+                    <P>MOST VIEWS</P>
+
+                </div>
+                <hr class="hr1">
+                <div class="post-l1">
+                    <P>MOST DISCUSED</P>
+
+                </div>
+
+            </div>
+            <div class="post-p2">
+                <div class="post-img">
+                    <img src="images/14.png" alt="Not found">
+                </div>
+                <h3>NEVBORN</h3>
+                <p>IN</p>
+                <a href="#">USER INTERFACE</a>
+
+            </div>
+            <div class="post-p3">
+
+                <div class="post3-p1">
+                    <h3>Exploring Dynamic Layout in <br> Sketch </h3>
+                </div>
+                <div class="post3-p2">
+                    <p>If you design interface, you probably
+                        <br> often work with repeating the element, like
+                        <br> row in a table or a grid of items.</p>
+                </div>
+                <div class="post3-p3">
+                    <div class="m91-h">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="m1-h1">
+                        <p>12</p>
+                    </div>
+
+                    <div class="m1-h11">
+                        <i class="fa fa-comment"></i>
+                    </div>
+                    <div class="m1-h111">
+                        <p>4</p>
+                    </div>
+
+                    <img src="images/34.png" alt="Not found">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="post-section">
+
+            <div class="post2-p1">
+                <div class="post2-p2">
+                    <p>LAST ARTICLE</p>
+
+                </div>
+                <div class="post2-p3">
+                    <p>POPULAR</p>
+
+                </div>
+                <div class="post2-p4">
+                    <p>FEATURED</p>
+
+                </div>
+
+            </div>
+            <hr class="hr1">
+            <div class="post2-img">
+                <img src="images/24.png" alt="Not found">
+
+            </div>
+            <div class="post2-head">
+                <h3>UI design-10 steps fpr great user <br>interface PL6</h3>
+
+            </div>
+            <div class="post2-text">
+                <p>As Promised in part 5, in this part you are
+                    <br> going to dive into the world of colors</p>
+
+            </div>
+
+            <a href="#">READ NOW</a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
